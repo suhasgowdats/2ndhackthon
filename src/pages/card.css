@@ -1,0 +1,48 @@
+.card>img{
+    object-fit: fill;
+    max-width: 300px;
+    max-height: 200px;
+    width: 100%
+}
+
+.card{
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0 4px 8px 2px ;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    min-width: 300px;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.card-info{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgb(218, 215, 215);
+}
+.card-info>h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.newdiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-btn{
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+.cart-btn:hover{
+    background-color: rgb(49, 137, 167);
+    cursor: pointer;
+}

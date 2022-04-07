@@ -1,0 +1,31 @@
+.full-div{
+    padding-top: 20px;
+    background-color: antiquewhite;
+}
+.image-div{
+    width: 50%;
+}
+.info-div{
+    width:50%;
+    background-color: antiquewhite;
+}
+.flex-div{
+    display: flex;
+}
+.image-div>img{
+    object-fit: fill;
+    max-width: 350px;
+    max-height: 250px;
+    width: 100%
+}
+.book-btn{
+    padding: 15px;
+    background-color: coral;
+    border: 1px solid coral;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.book-btn:hover{
+    background-color:rgb(223, 73, 18) ;
+    cursor: pointer;
+}
